@@ -1,7 +1,19 @@
 {
-  "name": "activepieces",
-  "version": "0.67.2",
-  "rcVersion": "0.67.0-rc.0",
+  "name": "rj-business-solutions-active-superposition",
+  "version": "1.0.0",
+  "rcVersion": "1.0.0-rc.0",
+  "description": "RJ Business Solutions Active Superposition - AI-Native Automation & Multi-Agent Framework Platform",
+  "author": {
+    "name": "Rick Jefferson",
+    "email": "rick@rjbizsolution.com",
+    "url": "https://rjbusiness.io"
+  },
+  "homepage": "https://rjbusiness.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjbizsolution23-wq/active-superposition.git"
+  },
+  "license": "MIT",
   "scripts": {
     "prepare": "husky install",
     "serve:frontend": "nx serve react-ui",

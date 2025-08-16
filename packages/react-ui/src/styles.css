@@ -12,28 +12,35 @@
   }
 
 :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    /* RJ Business Solutions Brand Colors */
+    --rj-primary: 219 100% 28%;      /* #003D91 Primary Blue */
+    --rj-accent: 219 82% 46%;        /* #1455D1 Royal Accent Blue */
+    --rj-white: 0 0% 100%;           /* #FFFFFF White */
+    --rj-slate: 210 23% 25%;         /* #2F3E4D Slate Gray */
+    --rj-grid: 210 56% 9%;           /* #0E1C2F Digital Grid Overlay */
     
-    --secondary: 0 0% 0%;
-    --secondary-foreground: 0 0% 100%;
+    --background: 0 0% 100%;
+    --foreground: var(--rj-slate);
+    
+    --secondary: var(--rj-slate);
+    --secondary-foreground: var(--rj-white);
 
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: var(--rj-accent);
+    --accent-foreground: var(--rj-white);
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
 
-    --ring: 240 5.9% 10%;
-    --radius: 0.625rem;
+    --ring: var(--rj-accent);
+    --radius: 10px;
 
-    --primary-100: 257 75% 85%;
-    --primary: 257 74% 57%;
-    --primary-300: 257 74% 25%;
-    --primary-foreground: 210 20% 98%;
+    --primary-100: 219 82% 85%;      /* Lighter version of RJ accent */
+    --primary: var(--rj-primary);     /* RJ Primary Blue */
+    --primary-300: var(--rj-grid);    /* RJ Grid color for darker states */
+    --primary-foreground: var(--rj-white);
 
 
     --success-100: 148 48% 80%;
@@ -68,22 +75,22 @@
   }
 
 .dark {
-  --background: 210 15% 12%;
-  --foreground: 210 30% 90%;
+  --background: var(--rj-grid);      /* RJ Grid color for dark background */
+  --foreground: var(--rj-white);
 
   --muted: 210 15% 28%;
   --muted-foreground: 210 10% 60%;
 
-  --secondary: 0 0% 100%;
-  --secondary-foreground: 0 0% 0%;
+  --secondary: var(--rj-white);
+  --secondary-foreground: var(--rj-slate);
 
-  --accent: 210 35% 25%;
-  --accent-foreground: 210 90% 95%;
+  --accent: var(--rj-accent);
+  --accent-foreground: var(--rj-white);
 
-  --primary-100: 210 80% 40%;
-  --primary: 210 90% 50%;
-  --primary-300: 210 100% 85%;
-  --primary-foreground: 210 90% 98%;
+  --primary-100: 219 82% 40%;        /* Darker version of RJ accent */
+  --primary: var(--rj-accent);       /* RJ Accent Blue for dark mode */
+  --primary-300: var(--rj-white);    /* RJ White for contrast */
+  --primary-foreground: var(--rj-grid);
 
   --success-100: 140 60% 40%;
   --success: 140 80% 50%;

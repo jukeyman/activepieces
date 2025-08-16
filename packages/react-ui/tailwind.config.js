@@ -33,6 +33,13 @@ module.exports = {
         1500: '1500ms',
       },
       colors: {
+        // RJ Business Solutions Brand Colors
+        'rj-primary': '#003D91',        // Primary Blue
+        'rj-accent': '#1455D1',         // Royal Accent Blue  
+        'rj-white': '#FFFFFF',          // White
+        'rj-slate': '#2F3E4D',          // Slate Gray
+        'rj-grid': '#0E1C2F',           // Digital Grid Overlay
+        
         'light-blue': 'hsl(var(--light-blue))',
         warning: {
           DEFAULT: 'hsl(var(--warning))',
@@ -93,6 +100,11 @@ module.exports = {
         xss: 'calc(var(--radius) - 10px)',
       },
       fontFamily: {
+        // RJ Business Solutions Typography System
+        'rj-headline': ['DM Serif Display', 'Inter Tight', 'serif'],     // Headlines/Display
+        'rj-body': ['DM Sans', 'Open Sans', 'sans-serif'],               // Body/Paragraph
+        'rj-code': ['JetBrains Mono', 'IBM Plex Mono', 'monospace'],     // Tech/Code
+        
         inter: ['Inter', 'sans-serif'],
       },
       fontSize: {
